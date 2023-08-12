@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container{
+    position: relative;
+    background-color: #F7F8F9;
+    height: 812px;
+    width: 375px;
+    margin-left: 38%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container1{
+    border: 2px solid #F7F8F9; /*taken border 2px*/
+    width: 373px;  /*reduced 2px width, actual width is 375px*/
+    height: 68px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 6px #00000007;
+}
+.container p{
+    position: absolute;
+    top: 27px;
+    left: 15px;
+    width: 146px;
+    height: 22px;
+    color: #1D2226;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+}
+
+#img1{
+    position: absolute;
+    top: 98px;
+    left: 20px;
+    width: 76px;
+    height: 76px;
+}
+
+#img2{
+    position: absolute;
+    top: 147px;
+    left: 79px;
+    width: 21px;
+    height: 23px;
+}
+
+.container h3{
+    position: absolute;
+    top: 98px;
+    left: 116px;
+    width: 73px;
+    height: 18px;
+    color: #1D2226;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+}
+
+#gmail{
+    position: absolute;
+    top: 122px;
+    left: 116px;
+    width: 118px;
+    height: 17px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    text-transform: capitalize;
+
+}
+
+#paragraph{
+    position: absolute;
+    top: 204px;
+    left: 20px;
+    width: 337px;
+    height: 63px;
+    text-transform: capitalize;
+    color: #1D2226;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    
+}
+
+#line1{
+    position: absolute;
+    top: 287px;
+    left: 0px;
+    width: 375px;
+    height: 0px;
+    border: 1px dashed #CBCBCB;
+}
+
+#line2{
+    position: absolute;
+    top: 776px;
+    left: 0px;
+    width: 375px;
+    height: 0px;
+    border: 1px dashed #CBCBCB;
+}
